@@ -68,7 +68,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 20px;
+    padding: 5px 20px;
 }
 
 .header__img-logo {
@@ -484,10 +484,6 @@ body {
 }
 
 @media screen and (width < 600px) {
-    .header__down-section {
-        padding: 0;
-    }
-
     .header__img-logo {
         width: 104px;
     }
@@ -499,6 +495,10 @@ body {
         border: 1px solid rgb(186, 186, 186);
         border-radius: 5px;
         overflow: hidden;
+    }
+
+    .header__discount-link {
+        display: none;
     }
 
     .nav-list span {

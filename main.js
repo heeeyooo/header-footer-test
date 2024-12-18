@@ -43,7 +43,7 @@ function outerClosure() {
     let number = 90;
     let id = setInterval(innerClosure, 1000);
     function innerClosure() {
-        if (number === 45) {
+        if (number === 0) {
             clearInterval(id);
         } else {
             number--;
