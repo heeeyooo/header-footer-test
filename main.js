@@ -5,6 +5,8 @@ function toggleBurger11() {
         .classList.toggle("burger-11__center-line--active");
 }
 
+// Scroll to top function
+
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
@@ -13,6 +15,8 @@ function topFunction() {
 document.querySelector(".js-to-top-btn").addEventListener("click", () => {
     topFunction();
 });
+
+// Hide/show to top btn on scroll
 
 document.addEventListener("scroll", () => {
     if (window.pageYOffset > 100) {
@@ -24,7 +28,7 @@ document.addEventListener("scroll", () => {
     }
 });
 
-// Hide header
+// Hide/show navbar on scroll
 
 let lastScrollTop = 0;
 addEventListener("scroll", () => {
@@ -38,6 +42,8 @@ addEventListener("scroll", () => {
     }
     lastScrollTop = scrollTop;
 });
+
+// Countdown function (closure)
 
 function outerClosure() {
     let number = 90;
