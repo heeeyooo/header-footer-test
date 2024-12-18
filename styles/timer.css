@@ -1,0 +1,6 @@
+.timer {
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: clamp(30px, 5vw, 50px);
+}

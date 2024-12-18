@@ -1,0 +1,18 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.to-top-btn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: rgb(171, 111, 231);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: grid;
+    place-items: center;
+    transform: translateY(75px);
+    cursor: pointer;
+    transition: all 0.3s;
+}
